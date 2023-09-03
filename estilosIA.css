@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-left: 230px;
+}
+header {
+    background-color: #009933;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #009933;
+    color: white;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para secciones */
+section {
+    padding: 20px;
+}
+
+/* Estilos para formularios */
+form {
+    margin-top: 10px;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las imágenes de las plantas */
+.planta {
+    border: 2px solid #009933;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.planta img {
+    max-width: 100%;
+}
+
+/* Estilos para enlaces de descarga */
+.planta a {
+    display: block;
+    background-color: #009933;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Estilos para el selector de categoría */
+#categoria {
+    margin-bottom: 10px;
+}

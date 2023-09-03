@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Jardín</title>
+</head>
+<body>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#contacto">Información de contacto</a></li>
+            <li><a href="#about">Acerca de Jeziel Paladino</a></li>
+            <li><a href="#interior">Plantas de interior</a></li>
+            <li><a href="#exterior">Plantas de exterior</a></li>
+        </ul>
+    </nav>
+<main>
+    <header>
+        <h1>Bienvenido al Jardín de Jeziel</h1>
+    </header>
+
+    <section>
+        <a href="actividad1.html"><h2>ACTIVIDAD 1 - PROYECTO DE SOFTWARE</h2></a>
+    </section>
+
+    <section id="contacto">
+        <h2>Información de contacto</h2>
+        <p>Para cualquier consulta, contáctame a través del siguiente formulario:</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="interior">
+        <h2>Plantas de Interior</h2>
+        <select id="categoria">
+            <option value="planta1">Planta Interior 1</option>
+            <option value="planta2">Planta Interior 2</option>
+            <option value="planta3">Planta Interior 3</option>
+        </select>
+        <div class="planta" id="planta1">
+            <img src="imagenes/planta1.jpg" alt="Planta 1">
+            <a href="info/planta1.pdf" download>Descargar PDF</a>
+        </div>
+        <div class="planta" id="planta2">
+            <img src="imagenes/planta2.jpg" alt="Planta 2">
+            <a href="info/planta2.pdf" download>Descargar PDF</a>
+        </div>
+        <div class="planta" id="planta3">
+            <img src="imagenes/planta3.jpg" alt="Planta 3">
+            <a href="info/planta3.pdf" download>Descargar PDF</a>
+        </div>
+    </section>
+
+    <section id="exterior">
+        <h2>Plantas de Exterior</h2>
+        <select id="categoria">
+            <option value="planta4">Planta Exterior 1</option>
+            <option value="planta5">Planta Exterior 2</option>
+            <option value="planta6">Planta Exterior 3</option>
+        </select>
+        <div class="planta" id="planta4">
+            <img src="imagenes/planta4.jpg" alt="Planta 4">
+            <a href="info/planta4.pdf" download>Descargar PDF</a>
+        </div>
+        <div class="planta" id="planta5">
+            <img src="imagenes/planta5.jpg" alt="Planta 5">
+            <a href="info/planta5.pdf" download>Descargar PDF</a>
+        </div>
+        <div class="planta" id="planta6">
+            <img src="imagenes/planta6.jpg" alt="Planta 6">
+            <a href="info/planta6.pdf" download>Descargar PDF</a>
+        </div>
+    </section>
+
+    <footer id="about">
+        <h2>Acerca de Jeziel Paladino</h2>
+        <p>Mi nombre es Jeziel Paladino y puedes contactarme a través de mi correo electrónico: <a href="mailto:leandropaladino15@gmail.com">leandropaladino15@gmail.com</a></p>
+    </footer>
+</main>
+</body>
+</html>
